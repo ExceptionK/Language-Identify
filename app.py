@@ -68,3 +68,28 @@ class LanguageIdentify:
 
 
 li = LanguageIdentify()
+
+
+@app.route('/')
+def ping():
+    return 'ok'
+
+
+@app.route('/check', methods=['GET', 'POST'])
+def check():
+    if request.method == 'GET':
+        return render_template('index.html')
+    else:
+        try:
+            txt = request.form['txt']
+            if not txt or len (txt) <= 20:
+                return render_template('index.html', error = 'Please type more than 20 characters!')
+            _pred = li.pred(txt)
+            return render_template('index.html', language = _pred['language'], language_code = _pred['language_code'], score =+ _pred['score'], txt = txt)
+        except:
+            traceback.print_exc()
+            return render_template('index.html', error = 'Unknown error has occurred, please try again!')
+
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000, debug=True)
