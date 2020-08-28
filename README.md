@@ -4,6 +4,8 @@ Họ tên: HUỲNH MINH THUẬN
 Mã sinh viên: 5751071041
 
 Lớp: CÔNG NGHỆ THÔNG TIN K57
+
+PHÂN HIỆU TRƯỜNG ĐẠI HỌC GIAO THÔNG VẬN TẢI TẠI TP. HỒ CHÍ MINH
 ## Đề tài: XÂY DỰNG CHƯƠNG TRÌNH DỰ ĐOÁN NGÔN NGỮ
 ## Phần 1: Công nghệ sử dụng
 - Công cụ: Pycharm, Visual Studio Code
