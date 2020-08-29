@@ -17,3 +17,8 @@ PHÂN HIỆU TRƯỜNG ĐẠI HỌC GIAO THÔNG VẬN TẢI TẠI TP. HỒ CHÍ 
 - Cài đặt Python 3
 - Cài đặt FastText từ: https://github.com/facebookresearch/fastText/#building-fasttext-for-python
 - Cài đặt requirements.txt
+## Chi tiết
+Demo chương trình: https://language-identify.herokuapp.com/check
+Mọi thông tin vui lòng liên hệ:
+Facebook: https://www.facebook.com/profile.php?id=100050769382560
+Email: minhthuanpttt@gmail.com
