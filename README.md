@@ -22,6 +22,6 @@ Demo chương trình: https://language-identify.herokuapp.com/check
 
 Mọi thông tin vui lòng liên hệ:
 
-Facebook: https://www.facebook.com/profile.php?id=100050769382560
+Facebook: facebook.com/ExceptionK.78
 
 Email: minhthuanpttt@gmail.com
